@@ -1,0 +1,1 @@
+Visita da <strong>{$item.parameters.start|l10n(datetime)}</strong> a <strong>{$item.parameters.end|l10n(datetime)}</strong>
