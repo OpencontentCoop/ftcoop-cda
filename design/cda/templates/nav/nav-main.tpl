@@ -31,7 +31,7 @@
                             </li>
                             {/if}
 
-                            {if fetch( 'user', 'has_access_to', hash( module, 'consiglio', function, 'collaboration' ))}
+                            {if and(is_set($active_dashboards['areacollaborativa']), fetch( 'user', 'has_access_to', hash( module, 'consiglio', function, 'collaboration' )))}
                             <li class="menu-item{if $current_module|eq('consiglio/collaboration/')} current{/if}">
                             	<a href="{'consiglio/collaboration'|ezurl(no)}"><b>Area collaborativa</b></a>
                             </li>
