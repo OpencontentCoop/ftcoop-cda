@@ -51,15 +51,11 @@
       {$module_result.content}
 
 {cache-block expiry=86400 keys=array( $module_result.uri, $user_hash, $access_type.name, $extra_cache_key )}
-
     </div>
-
 </div>
-
-
 {include uri='design:page_footer_script.tpl'}
-
 {/cache-block}
+
 {* This comment will be replaced with actual debug report (if debug is on). *}
 <!--DEBUG_REPORT-->
 </body>

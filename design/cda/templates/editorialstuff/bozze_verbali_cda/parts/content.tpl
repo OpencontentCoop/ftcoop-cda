@@ -34,7 +34,7 @@
 	  var currentUser = null;
 	{/if}
 	
-	{literal}
+	{*literal}
     $(document).ready(function(){
         
 		var timeLog = {
@@ -77,7 +77,7 @@
 		}
 		
     });
-    {/literal}
+    {/literal*}
 </script>
 
 

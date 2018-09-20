@@ -10,15 +10,15 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-3">
+                <div class="col-lg-2">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
                         <span class="sr-only">Mostra navigazione</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="brand center-block" href={'/'|ezurl}>
-                        <img src="{'ftcoop/portal-logo.png'|ezimage(no)}" alt="{ezini( 'SiteSettings', 'GlobalSiteName', 'site.ini' )}" class="bg-primary" />
+                    <a class="brand center-block text-center" href={'/'|ezurl}>
+                        <img src="{'ftcoop/logo.png'|ezimage(no)}" alt="{ezini( 'SiteSettings', 'GlobalSiteName', 'site.ini' )}" height="40" />
                     </a>
                 </div>
 
