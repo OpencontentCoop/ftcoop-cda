@@ -67,7 +67,7 @@
 	                                    {/if}
 	                                </ul>
 	                            </li>
-	                            <li class="dropdown menu-item{if or($current_module|eq('editorialstuff/dashboard/areacollaborativa'),$current_module|eq('editorialstuff/dashboard/materia'),$current_module|eq('editorialstuff/dashboard/politico'),$current_module|eq('editorialstuff/dashboard/tecnico'),$current_module|eq('editorialstuff/dashboard/invitato'),$current_module|eq('editorialstuff/dashboard/referentelocale'))} current{/if}">
+	                            <li class="dropdown menu-item{if or($current_module|eq('editorialstuff/dashboard/areacollaborativa'),$current_module|eq('editorialstuff/dashboard/materia'),$current_module|eq('editorialstuff/dashboard/politico'),$current_module|eq('editorialstuff/dashboard/tecnico'),$current_module|eq('editorialstuff/dashboard/invitato'),$current_module|eq('editorialstuff/dashboard/referentelocale'),$current_module|eq('editorialstuff/dashboard/responsabilearea'),$current_module|eq('editorialstuff/dashboard/cda_evento'),$current_module|eq('editorialstuff/dashboard/cda_documento'))} current{/if}">
 	                                <a data-toggle="dropdown" href="#" class="dropdown-toggle"><b>Gestione</b> <i class="fa fa-chevron-down"></i></a>
 	                                <ul class="nav dropdown-menu">
 	                                    {if is_set($active_dashboards['materia'])}
@@ -91,6 +91,15 @@
 	                                    {/if}
 	                                    {if is_set($active_dashboards['areacollaborativa'])}
 	                                    <li><a href="{'editorialstuff/dashboard/areacollaborativa'|ezurl(no)}">Aree collaborative</a></li>	                                    
+	                                    {/if}
+	                                    {if is_set($active_dashboards['responsabilearea'])}
+	                                    <li><a href="{'editorialstuff/dashboard/responsabilearea'|ezurl(no)}">Responsabili d'area</a></li>	                                    
+	                                    {/if}
+	                                    {if is_set($active_dashboards['cda_evento'])}
+	                                    <li><a href="{'editorialstuff/dashboard/cda_evento'|ezurl(no)}">Eventi</a></li>	                                    
+	                                    {/if}
+	                                    {if is_set($active_dashboards['cda_documento'])}
+	                                    <li><a href="{'editorialstuff/dashboard/cda_documento'|ezurl(no)}">Documenti</a></li>	                                    
 	                                    {/if}
 	                                </ul>
 	                            </li>
@@ -117,6 +126,26 @@
 	                            {/if}
                             {/if}
                         </ul>
+
+						{if $pagedata.is_edit|not()}
+                        <form class="navbar-form col-md-4 pull-right" role="search" method="get" action="{'/content/search'|ezurl( 'no' )}" id="site-wide-search" style="{if is_set( $pagedata.persistent_variable.hide_header_searchbox )}visibility: hidden;{/if}max-width: 200px;">
+						  <div class="input-group">
+						      <input type="text" class="form-control"  name="SearchText" id="site-wide-search-field" placeholder="{'Search'|i18n('design/ocbootstrap/pagelayout')}" name="srch-term" id="srch-term">
+						      <div class="input-group-btn">
+						        <button class="btn btn-primary" type="submit" ><i class="glyphicon glyphicon-search"></i></button>
+						      </div>
+						      {if eq( $ui_context, 'browse' )}
+						        <input name="Mode" type="hidden" value="browse" />
+						      {else}
+						      	{def $openpa_consiglio_root = fetch(content,object,hash('remote_id', 'openpa_consiglio'))}
+						      	{if $openpa_consiglio_root}
+						      		<input type="hidden" name="SubTreeArray" value="{$openpa_consiglio_root.main_node_id}">
+					      		{/if}
+					      		{undef $openpa_consiglio_root}
+						      {/if}						    
+						  </div>
+						</form>
+						{/if}
 
                     </div>
 
