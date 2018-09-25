@@ -18,7 +18,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="brand center-block text-center" href={'/'|ezurl}>
-                        <img src="{'ftcoop/logo.png'|ezimage(no)}" alt="{ezini( 'SiteSettings', 'GlobalSiteName', 'site.ini' )}" height="40" />
+                        <img src="{'logo.png'|ezimage(no)}" alt="{ezini( 'SiteSettings', 'GlobalSiteName', 'site.ini' )}" height="45" />
                     </a>
                 </div>
 
