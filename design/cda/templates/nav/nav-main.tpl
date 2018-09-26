@@ -80,7 +80,7 @@
 	                                    <li><a href="{'editorialstuff/dashboard/organo'|ezurl(no)}">Organi sociali</a></li>
 	                                    {/if}
 	                                    {if is_set($active_dashboards['tecnico'])}
-	                                    <li><a href="{'editorialstuff/dashboard/tecnico'|ezurl(no)}">Tecnici</a></li>
+	                                    <li><a href="{'editorialstuff/dashboard/tecnico'|ezurl(no)}">Segreteria</a></li>
 	                                    {/if}
 	                                    {if is_set($active_dashboards['invitato'])}
 	                                    <li><a href="{'editorialstuff/dashboard/invitato'|ezurl(no)}">Invitati</a></li>
