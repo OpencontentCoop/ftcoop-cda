@@ -67,11 +67,11 @@ class FTCoopOpenPAConsiglioConfiguration extends OpenPAConsiglioConfiguration
         {openpaini('OpenPAConsiglio','SocketUrl','cal')}
         {openpaini('OpenPAConsiglio','SocketPort','8090')}
         */
-        // return array(
-        //     'url' => 'devnginx2.opencontent.it',
-        //     'port' => 8091,
-        //     'js_url' => 'devnginx2.opencontent.it:8091',
-        // );
+        return array(
+            'url' => 'devnginx2.opencontent.it',
+            'port' => 8091,
+            'js_url' => 'devnginx2.opencontent.it:8091',
+        );
         return array(
             'url' => 'ftcoop-cda.opencontent.it',
             'port' => 8091,
@@ -128,7 +128,7 @@ class FTCoopOpenPAConsiglioConfiguration extends OpenPAConsiglioConfiguration
             'seduta' => true,
             'materia' => true,
             'invitato' => true,
-            'referentelocale' => true,
+            //'referentelocale' => true,
             //'areacollaborativa' => true,
             'organo' => true,
             'tecnico' => true,
