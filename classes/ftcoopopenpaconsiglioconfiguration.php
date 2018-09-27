@@ -177,12 +177,12 @@ class FTCoopOpenPAConsiglioConfiguration extends OpenPAConsiglioConfiguration
 
     public function siteUrl()
     {
-        return "https://www.cooperazionetrentina.it/cda";
+        return "http://cda.ftcoop-dev.opencontent.it/cda";
     }
 
     public function assetUrl()
     {
-        return "https://www.cooperazionetrentina.it";
+        return "http://cda.ftcoop-dev.opencontent.it";
     }
 
     public function logoPath()
