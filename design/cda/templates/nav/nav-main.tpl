@@ -62,7 +62,7 @@
 	                                    {if is_set($active_dashboards['proposta'])}
 	                                    <li><a href="{'editorialstuff/dashboard/proposta'|ezurl(no)}">Proposte ordine del giorno</a></li>
 	                                    {/if}
-	                                    {if $available_factories|contains('verbale')}
+										{if is_set($active_dashboards['verbale'])}
 	                                    <li><a href="{'editorialstuff/dashboard/verbale/'|ezurl(no)}">Verbali</a></li>
 	                                    {/if}
 	                                </ul>
@@ -75,6 +75,7 @@
 	                                    {/if}
 	                                    {if is_set($active_dashboards['politico'])}
 	                                    <li><a href="{'editorialstuff/dashboard/politico'|ezurl(no)}">Politici</a></li>
+										<li><a href="{'consiglio/gettoni'|ezurl(no)}">Gettoni di presenza</a></li>
 	                                    {/if}
 	                                    {if is_set($active_dashboards['organo'])}
 	                                    <li><a href="{'editorialstuff/dashboard/organo'|ezurl(no)}">Organi sociali</a></li>
@@ -85,7 +86,6 @@
 	                                    {if is_set($active_dashboards['invitato'])}
 	                                    <li><a href="{'editorialstuff/dashboard/invitato'|ezurl(no)}">Invitati</a></li>
 	                                    {/if}
-	                                    <li><a href="{'consiglio/gettoni'|ezurl(no)}">Gettoni di presenza</a></li>
 	                                    {if is_set($active_dashboards['referentelocale'])}
 	                                    <li><a href="{'editorialstuff/dashboard/referentelocale'|ezurl(no)}">Referenti locali</a></li>
 	                                    {/if}
@@ -109,7 +109,7 @@
 	                                <a href="{'editorialstuff/dashboard/seduta'|ezurl(no)}"><b>Archivio sedute</b></a>
 	                            </li>
 	                            {/if}
-								{if $available_factories|contains('verbale')}
+								{if is_set($active_dashboards|contains('verbale'))}
 									<li><a href="{'editorialstuff/dashboard/verbale/'|ezurl(no)}">Verbali</a></li>
 								{/if}
 	                            {if is_set($active_dashboards['audizione'])}
@@ -120,11 +120,6 @@
 	                            {if is_set($active_dashboards['parere'])}
 	                            <li class="menu-item{if $current_module|eq('editorialstuff/dashboard/parere')} current{/if}">
 	                                <a href="{'editorialstuff/dashboard/parere'|ezurl(no)}"><b>Archivio pareri</b></a>
-	                            </li>
-	                            {/if}
-	                            {if $available_factories|contains('bozze_verbali_cda')}
-	                            <li class="menu-item{if $current_module|eq('editorialstuff/dashboard/bozze_verbali_cda')} current{/if}">
-	                            	<a href="{'editorialstuff/dashboard/bozze_verbali_cda/'|ezurl(no)}"><b>Bozze verbali</b></a>
 	                            </li>
 	                            {/if}
                             {/if}
