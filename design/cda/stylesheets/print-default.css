@@ -33,6 +33,10 @@ body {
     background-position: top center;
 }
 
+#header.nologo{
+    background: none;
+}
+
 #footer
 {
     display: block;
@@ -148,4 +152,8 @@ hr{
 .page-break
 {
     page-break-after:always;
+}
+
+.text-center{
+    text-align: center;
 }

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <object class_identifier="organo_sociale" name="Consiglio di amministrazione e Collegio sindacale"
+            contentobject_id="861769" section_id="26" published="1536656899" modified="1537863056" current_version="2"
+            status="published" remote_id="d0178c403aeef890438d74186c8d4805" owner="Administrator Opencontent"
+            node_id="755253" node_remote_id="ab8b35040cd86c3067492d916fcce274" parent_node_id="755153"
+            parent_object_remote_id="openpa_consiglio_organo" parent_node_remote_id="157608e2bc5a54a277e594955cd24abf"
+            main_node_id="755253" path_string="/1/43/755146/755153/755253/"
+            path_identification_string="media/dashboard_cda/organo/consiglio_di_amministrazione_e_collegio_sindacale"
+            is_hidden="0" is_invisible="0">
+        <attribute contentclass_attribute_identifier="titolo" data_type_string="ezstring"
+                   contentclass_attribute_name="Nome dell'organo politico" has_content="1">Consiglio di amministrazione
+            e Collegio sindacale
+        </attribute>
+        <attribute contentclass_attribute_identifier="abstract" data_type_string="ezxmltext"
+                   contentclass_attribute_name="Descrizione breve" has_content="1"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"><section><header>Consiglio di amministrazione e Collegio sindacale</header></section></section>
+]]></attribute>
+        <attribute contentclass_attribute_identifier="descrizione" data_type_string="ezxmltext"
+                   contentclass_attribute_name="Descrizione" has_content="0"/>
+        <attribute contentclass_attribute_identifier="competenze" data_type_string="ezxmltext"
+                   contentclass_attribute_name="Competenze" has_content="0"/>
+        <attribute contentclass_attribute_identifier="image" data_type_string="ezimage"
+                   contentclass_attribute_name="Immagine" has_content="0"/>
+        <attribute contentclass_attribute_identifier="membri" data_type_string="ezobjectrelationlist"
+                   contentclass_attribute_name="Membri" has_content="1">
+            <object class_identifier="personale" name="Mattarei Marina" contentobject_id="507277" section_id="1"
+                    published="1342541328" modified="1534173849" current_version="27" status="published"
+                    remote_id="b2f89f717dc5e30a9537590bc54e90bd" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Brochetti Rodolfo" contentobject_id="502185" section_id="1"
+                    published="1342531143" modified="1536652290" current_version="50" status="published"
+                    remote_id="3fe1eca840877648953697a7959d0ce2" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Carli Alberto" contentobject_id="507302" section_id="1"
+                    published="1342541657" modified="1528439973" current_version="22" status="published"
+                    remote_id="0420cd3fcc3d974a4a50820fdd103336" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Castaldo Marina" contentobject_id="507258" section_id="1"
+                    published="1342541110" modified="1535727044" current_version="59" status="published"
+                    remote_id="ca9d94fa01962bc98581542cc7ad52d2" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Cipriani Serenella" contentobject_id="507321" section_id="1"
+                    published="1342542890" modified="1528439762" current_version="22" status="published"
+                    remote_id="d77cb615af28256b57d71a1ed8c65151" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Dal Sasso Paola" contentobject_id="502250" section_id="1"
+                    published="1342531214" modified="1528702786" current_version="33" status="published"
+                    remote_id="d13999ed7ee38792e5612d54bf0836d5" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Dalpalu' Renato" contentobject_id="502251" section_id="1"
+                    published="1342531215" modified="1528439350" current_version="106" status="published"
+                    remote_id="1852aae4502e3360cef2b10dec7610a2" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Dandrea Arnaldo" contentobject_id="503819" section_id="1"
+                    published="1342533052" modified="1528439264" current_version="44" status="published"
+                    remote_id="cb5b1c7b47ab3e7a7e7139855fd6a38d" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Facchinelli Walter" contentobject_id="503977" section_id="1"
+                    published="1342533242" modified="1531748217" current_version="18" status="published"
+                    remote_id="9f53732c0632d6db981b06322907d805" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Fellin Paolo" contentobject_id="502283" section_id="1"
+                    published="1342531251" modified="1530262947" current_version="47" status="published"
+                    remote_id="c1c7fe1ca5f70db120e629e82f96eb2e" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Fontanari Steno" contentobject_id="507268" section_id="1"
+                    published="1342541226" modified="1530263158" current_version="22" status="published"
+                    remote_id="1c48002610d361a0ca29f39d9594141b" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Franch Mariangela" contentobject_id="504101" section_id="1"
+                    published="1342533399" modified="1531748223" current_version="16" status="published"
+                    remote_id="2c2568407d2b28c48d38941f7e8876a5" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Ghezzer Sara" contentobject_id="613340" section_id="1"
+                    published="1406428744" modified="1530263279" current_version="7" status="published"
+                    remote_id="0fdd6093f4412ca922e1d7758153540b" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Lutterotti Bruno" contentobject_id="502356" section_id="1"
+                    published="1342531344" modified="1531748034" current_version="65" status="published"
+                    remote_id="0b3554b38ec1db5436d062c945d7b20b" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Misconel Marco" contentobject_id="507281" section_id="1"
+                    published="1342541346" modified="1531748230" current_version="25" status="published"
+                    remote_id="21827be65736ad54a6d41636954dcc73" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Monfredini Italo" contentobject_id="506313" section_id="1"
+                    published="1342536555" modified="1530263524" current_version="45" status="published"
+                    remote_id="6d745187517f25caa6e2653738312f7e" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Odorizzi Michele" contentobject_id="502420" section_id="1"
+                    published="1342531428" modified="1536826259" current_version="52" status="published"
+                    remote_id="ec7b8aaf581a831c3e7411cd574c0e2d" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Pilati Antonio" contentobject_id="505773" section_id="1"
+                    published="1342535655" modified="1530263779" current_version="15" status="published"
+                    remote_id="902abf33bc1d7b47c508584e79db113c" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Preghenella Germano" contentobject_id="507314" section_id="1"
+                    published="1342541962" modified="1531748236" current_version="56" status="published"
+                    remote_id="585bb7f3559c345a4d243de6be4036f7" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Rigotti Luca" contentobject_id="507290" section_id="1"
+                    published="1342541450" modified="1528701702" current_version="47" status="published"
+                    remote_id="0b9100285a1b600c94cd057512b899fe" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Tommasi Renzo" contentobject_id="601037" section_id="1"
+                    published="1397961104" modified="1537859116" current_version="5" status="published"
+                    remote_id="b67b3cb04aa6831176a3dbb906029faf" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Trainotti Emiliano" contentobject_id="568682" section_id="1"
+                    published="1371350453" modified="1528439221" current_version="8" status="published"
+                    remote_id="a0874dcf960b431b44d2256d7e8dd6b9" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Martinelli Nadia" contentobject_id="656299" section_id="1"
+                    published="1434854695" modified="1530178766" current_version="12" status="published"
+                    remote_id="e43f1141df0e1d3ac868f2295e9b0ab5" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Borghetti Antonio" contentobject_id="568727" section_id="1"
+                    published="1371350537" modified="1530263441" current_version="9" status="published"
+                    remote_id="d5090fc37dc4b42960337959ada424f3" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Gentil Patrizia" contentobject_id="507337" section_id="1"
+                    published="1342545357" modified="1528882198" current_version="43" status="published"
+                    remote_id="cb6b27c0e4ae00e3029d2639fe6017e8" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Corradini Lucia" contentobject_id="507338" section_id="1"
+                    published="1342545536" modified="1530262280" current_version="82" status="published"
+                    remote_id="4178aafd728d9c1a3f0e80e6725bdd7a" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Ferretti Erica" contentobject_id="506146" section_id="1"
+                    published="1342536274" modified="1530608337" current_version="17" status="published"
+                    remote_id="57bc4a84131216482ed6391014a50ca6" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Ceschi Alessandro" contentobject_id="755425" section_id="1"
+                    published="1489653932" modified="1521039825" current_version="10" status="published"
+                    remote_id="28a8dcc76352767f3cc9329a4471d4f4" owner="Perugini Sara"/>
+            <object class_identifier="personale" name="Visetti Vincenzo" contentobject_id="506940" section_id="1"
+                    published="1342537853" modified="1531731524" current_version="4" status="published"
+                    remote_id="ElnTl5d5f102af9e2cea14f6ce19eb181b388" owner="Importatore Automatico"/>
+        </attribute>
+        <attribute contentclass_attribute_identifier="nota" data_type_string="ezxmltext"
+                   contentclass_attribute_name="Note" has_content="0"/>
+    </object>
+    <object class_identifier="organo_sociale" name="Collegio sindacale" contentobject_id="861770" section_id="26"
+            published="1536656977" modified="1537860619" current_version="2" status="published"
+            remote_id="a26b151661b9ba8571b56500cb7126cf" owner="Administrator Opencontent" node_id="755254"
+            node_remote_id="1b82a01b94b3cb724cf730f4dfc85bad" parent_node_id="755153"
+            parent_object_remote_id="openpa_consiglio_organo" parent_node_remote_id="157608e2bc5a54a277e594955cd24abf"
+            main_node_id="755254" path_string="/1/43/755146/755153/755254/"
+            path_identification_string="media/dashboard_cda/organo/collegio_sindacale" is_hidden="0" is_invisible="0">
+        <attribute contentclass_attribute_identifier="titolo" data_type_string="ezstring"
+                   contentclass_attribute_name="Nome dell'organo politico" has_content="1">Collegio sindacale
+        </attribute>
+        <attribute contentclass_attribute_identifier="abstract" data_type_string="ezxmltext"
+                   contentclass_attribute_name="Descrizione breve" has_content="1"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"><section><header>Collegio sindacale</header></section></section>
+]]></attribute>
+        <attribute contentclass_attribute_identifier="descrizione" data_type_string="ezxmltext"
+                   contentclass_attribute_name="Descrizione" has_content="0"/>
+        <attribute contentclass_attribute_identifier="competenze" data_type_string="ezxmltext"
+                   contentclass_attribute_name="Competenze" has_content="0"/>
+        <attribute contentclass_attribute_identifier="image" data_type_string="ezimage"
+                   contentclass_attribute_name="Immagine" has_content="0"/>
+        <attribute contentclass_attribute_identifier="membri" data_type_string="ezobjectrelationlist"
+                   contentclass_attribute_name="Membri" has_content="0"/>
+        <attribute contentclass_attribute_identifier="nota" data_type_string="ezxmltext"
+                   contentclass_attribute_name="Note" has_content="0"/>
+    </object>
+    <object class_identifier="organo_sociale" name="Comitato esecutivo" contentobject_id="861771" section_id="26"
+            published="1536657018" modified="1537863211" current_version="2" status="published"
+            remote_id="32f2881dd2327029f7fee14810483a00" owner="Administrator Opencontent" node_id="755255"
+            node_remote_id="eb05965d5f703ed308266c2d33657d7a" parent_node_id="755153"
+            parent_object_remote_id="openpa_consiglio_organo" parent_node_remote_id="157608e2bc5a54a277e594955cd24abf"
+            main_node_id="755255" path_string="/1/43/755146/755153/755255/"
+            path_identification_string="media/dashboard_cda/organo/comitato_esecutivo" is_hidden="0" is_invisible="0">
+        <attribute contentclass_attribute_identifier="titolo" data_type_string="ezstring"
+                   contentclass_attribute_name="Nome dell'organo politico" has_content="1">Comitato esecutivo
+        </attribute>
+        <attribute contentclass_attribute_identifier="abstract" data_type_string="ezxmltext"
+                   contentclass_attribute_name="Descrizione breve" has_content="1"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"><section><header>Comitato esecutivo</header></section></section>
+]]></attribute>
+        <attribute contentclass_attribute_identifier="descrizione" data_type_string="ezxmltext"
+                   contentclass_attribute_name="Descrizione" has_content="0"/>
+        <attribute contentclass_attribute_identifier="competenze" data_type_string="ezxmltext"
+                   contentclass_attribute_name="Competenze" has_content="0"/>
+        <attribute contentclass_attribute_identifier="image" data_type_string="ezimage"
+                   contentclass_attribute_name="Immagine" has_content="0"/>
+        <attribute contentclass_attribute_identifier="membri" data_type_string="ezobjectrelationlist"
+                   contentclass_attribute_name="Membri" has_content="1">
+            <object class_identifier="personale" name="Mattarei Marina" contentobject_id="507277" section_id="1"
+                    published="1342541328" modified="1534173849" current_version="27" status="published"
+                    remote_id="b2f89f717dc5e30a9537590bc54e90bd" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Castaldo Marina" contentobject_id="507258" section_id="1"
+                    published="1342541110" modified="1535727044" current_version="59" status="published"
+                    remote_id="ca9d94fa01962bc98581542cc7ad52d2" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Dandrea Arnaldo" contentobject_id="503819" section_id="1"
+                    published="1342533052" modified="1528439264" current_version="44" status="published"
+                    remote_id="cb5b1c7b47ab3e7a7e7139855fd6a38d" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Ghezzer Sara" contentobject_id="613340" section_id="1"
+                    published="1406428744" modified="1530263279" current_version="7" status="published"
+                    remote_id="0fdd6093f4412ca922e1d7758153540b" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Lutterotti Bruno" contentobject_id="502356" section_id="1"
+                    published="1342531344" modified="1531748034" current_version="65" status="published"
+                    remote_id="0b3554b38ec1db5436d062c945d7b20b" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Tommasi Renzo" contentobject_id="601037" section_id="1"
+                    published="1397961104" modified="1537859116" current_version="5" status="published"
+                    remote_id="b67b3cb04aa6831176a3dbb906029faf" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Gentil Patrizia" contentobject_id="507337" section_id="1"
+                    published="1342545357" modified="1528882198" current_version="43" status="published"
+                    remote_id="cb6b27c0e4ae00e3029d2639fe6017e8" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Corradini Lucia" contentobject_id="507338" section_id="1"
+                    published="1342545536" modified="1530262280" current_version="82" status="published"
+                    remote_id="4178aafd728d9c1a3f0e80e6725bdd7a" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Ferretti Erica" contentobject_id="506146" section_id="1"
+                    published="1342536274" modified="1530608337" current_version="17" status="published"
+                    remote_id="57bc4a84131216482ed6391014a50ca6" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Ceschi Alessandro" contentobject_id="755425" section_id="1"
+                    published="1489653932" modified="1521039825" current_version="10" status="published"
+                    remote_id="28a8dcc76352767f3cc9329a4471d4f4" owner="Perugini Sara"/>
+            <object class_identifier="personale" name="Visetti Vincenzo" contentobject_id="506940" section_id="1"
+                    published="1342537853" modified="1531731524" current_version="4" status="published"
+                    remote_id="ElnTl5d5f102af9e2cea14f6ce19eb181b388" owner="Importatore Automatico"/>
+        </attribute>
+        <attribute contentclass_attribute_identifier="nota" data_type_string="ezxmltext"
+                   contentclass_attribute_name="Note" has_content="0"/>
+    </object>
+    <object class_identifier="organo_sociale" name="Consiglio di amministrazione" contentobject_id="861772"
+            section_id="26" published="1536657125" modified="1537863053" current_version="2" status="published"
+            remote_id="d089f39fba4cba905544393978c7b576" owner="Administrator Opencontent" node_id="755256"
+            node_remote_id="d1cc274ec2d8ad2b398c20eea9698949" parent_node_id="755153"
+            parent_object_remote_id="openpa_consiglio_organo" parent_node_remote_id="157608e2bc5a54a277e594955cd24abf"
+            main_node_id="755256" path_string="/1/43/755146/755153/755256/"
+            path_identification_string="media/dashboard_cda/organo/consiglio_di_amministrazione" is_hidden="0"
+            is_invisible="0">
+        <attribute contentclass_attribute_identifier="titolo" data_type_string="ezstring"
+                   contentclass_attribute_name="Nome dell'organo politico" has_content="1">Consiglio di amministrazione
+        </attribute>
+        <attribute contentclass_attribute_identifier="abstract" data_type_string="ezxmltext"
+                   contentclass_attribute_name="Descrizione breve" has_content="1"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/"><section><header>Consiglio di amministrazione</header></section></section>
+]]></attribute>
+        <attribute contentclass_attribute_identifier="descrizione" data_type_string="ezxmltext"
+                   contentclass_attribute_name="Descrizione" has_content="0"/>
+        <attribute contentclass_attribute_identifier="competenze" data_type_string="ezxmltext"
+                   contentclass_attribute_name="Competenze" has_content="0"/>
+        <attribute contentclass_attribute_identifier="image" data_type_string="ezimage"
+                   contentclass_attribute_name="Immagine" has_content="0"/>
+        <attribute contentclass_attribute_identifier="membri" data_type_string="ezobjectrelationlist"
+                   contentclass_attribute_name="Membri" has_content="1">
+            <object class_identifier="personale" name="Carli Alberto" contentobject_id="507302" section_id="1"
+                    published="1342541657" modified="1528439973" current_version="22" status="published"
+                    remote_id="0420cd3fcc3d974a4a50820fdd103336" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Mattarei Marina" contentobject_id="507277" section_id="1"
+                    published="1342541328" modified="1534173849" current_version="27" status="published"
+                    remote_id="b2f89f717dc5e30a9537590bc54e90bd" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Brochetti Rodolfo" contentobject_id="502185" section_id="1"
+                    published="1342531143" modified="1536652290" current_version="50" status="published"
+                    remote_id="3fe1eca840877648953697a7959d0ce2" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Castaldo Marina" contentobject_id="507258" section_id="1"
+                    published="1342541110" modified="1535727044" current_version="59" status="published"
+                    remote_id="ca9d94fa01962bc98581542cc7ad52d2" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Cipriani Serenella" contentobject_id="507321" section_id="1"
+                    published="1342542890" modified="1528439762" current_version="22" status="published"
+                    remote_id="d77cb615af28256b57d71a1ed8c65151" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Dal Sasso Paola" contentobject_id="502250" section_id="1"
+                    published="1342531214" modified="1528702786" current_version="33" status="published"
+                    remote_id="d13999ed7ee38792e5612d54bf0836d5" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Dalpalu' Renato" contentobject_id="502251" section_id="1"
+                    published="1342531215" modified="1528439350" current_version="106" status="published"
+                    remote_id="1852aae4502e3360cef2b10dec7610a2" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Dandrea Arnaldo" contentobject_id="503819" section_id="1"
+                    published="1342533052" modified="1528439264" current_version="44" status="published"
+                    remote_id="cb5b1c7b47ab3e7a7e7139855fd6a38d" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Facchinelli Walter" contentobject_id="503977" section_id="1"
+                    published="1342533242" modified="1531748217" current_version="18" status="published"
+                    remote_id="9f53732c0632d6db981b06322907d805" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Fellin Paolo" contentobject_id="502283" section_id="1"
+                    published="1342531251" modified="1530262947" current_version="47" status="published"
+                    remote_id="c1c7fe1ca5f70db120e629e82f96eb2e" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Fontanari Steno" contentobject_id="507268" section_id="1"
+                    published="1342541226" modified="1530263158" current_version="22" status="published"
+                    remote_id="1c48002610d361a0ca29f39d9594141b" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Franch Mariangela" contentobject_id="504101" section_id="1"
+                    published="1342533399" modified="1531748223" current_version="16" status="published"
+                    remote_id="2c2568407d2b28c48d38941f7e8876a5" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Ghezzer Sara" contentobject_id="613340" section_id="1"
+                    published="1406428744" modified="1530263279" current_version="7" status="published"
+                    remote_id="0fdd6093f4412ca922e1d7758153540b" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Lutterotti Bruno" contentobject_id="502356" section_id="1"
+                    published="1342531344" modified="1531748034" current_version="65" status="published"
+                    remote_id="0b3554b38ec1db5436d062c945d7b20b" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Misconel Marco" contentobject_id="507281" section_id="1"
+                    published="1342541346" modified="1531748230" current_version="25" status="published"
+                    remote_id="21827be65736ad54a6d41636954dcc73" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Monfredini Italo" contentobject_id="506313" section_id="1"
+                    published="1342536555" modified="1530263524" current_version="45" status="published"
+                    remote_id="6d745187517f25caa6e2653738312f7e" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Odorizzi Michele" contentobject_id="502420" section_id="1"
+                    published="1342531428" modified="1536826259" current_version="52" status="published"
+                    remote_id="ec7b8aaf581a831c3e7411cd574c0e2d" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Pilati Antonio" contentobject_id="505773" section_id="1"
+                    published="1342535655" modified="1530263779" current_version="15" status="published"
+                    remote_id="902abf33bc1d7b47c508584e79db113c" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Preghenella Germano" contentobject_id="507314" section_id="1"
+                    published="1342541962" modified="1531748236" current_version="56" status="published"
+                    remote_id="585bb7f3559c345a4d243de6be4036f7" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Rigotti Luca" contentobject_id="507290" section_id="1"
+                    published="1342541450" modified="1528701702" current_version="47" status="published"
+                    remote_id="0b9100285a1b600c94cd057512b899fe" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Tommasi Renzo" contentobject_id="601037" section_id="1"
+                    published="1397961104" modified="1537859116" current_version="5" status="published"
+                    remote_id="b67b3cb04aa6831176a3dbb906029faf" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Trainotti Emiliano" contentobject_id="568682" section_id="1"
+                    published="1371350453" modified="1528439221" current_version="8" status="published"
+                    remote_id="a0874dcf960b431b44d2256d7e8dd6b9" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Martinelli Nadia" contentobject_id="656299" section_id="1"
+                    published="1434854695" modified="1530178766" current_version="12" status="published"
+                    remote_id="e43f1141df0e1d3ac868f2295e9b0ab5" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Borghetti Antonio" contentobject_id="568727" section_id="1"
+                    published="1371350537" modified="1530263441" current_version="9" status="published"
+                    remote_id="d5090fc37dc4b42960337959ada424f3" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Gentil Patrizia" contentobject_id="507337" section_id="1"
+                    published="1342545357" modified="1528882198" current_version="43" status="published"
+                    remote_id="cb6b27c0e4ae00e3029d2639fe6017e8" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Corradini Lucia" contentobject_id="507338" section_id="1"
+                    published="1342545536" modified="1530262280" current_version="82" status="published"
+                    remote_id="4178aafd728d9c1a3f0e80e6725bdd7a" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Ferretti Erica" contentobject_id="506146" section_id="1"
+                    published="1342536274" modified="1530608337" current_version="17" status="published"
+                    remote_id="57bc4a84131216482ed6391014a50ca6" owner="Importatore Automatico"/>
+            <object class_identifier="personale" name="Ceschi Alessandro" contentobject_id="755425" section_id="1"
+                    published="1489653932" modified="1521039825" current_version="10" status="published"
+                    remote_id="28a8dcc76352767f3cc9329a4471d4f4" owner="Perugini Sara"/>
+            <object class_identifier="personale" name="Visetti Vincenzo" contentobject_id="506940" section_id="1"
+                    published="1342537853" modified="1531731524" current_version="4" status="published"
+                    remote_id="ElnTl5d5f102af9e2cea14f6ce19eb181b388" owner="Importatore Automatico"/>
+        </attribute>
+        <attribute contentclass_attribute_identifier="nota" data_type_string="ezxmltext"
+                   contentclass_attribute_name="Note" has_content="0"/>
+    </object>
+</root>

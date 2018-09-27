@@ -37,7 +37,7 @@
 <div class="tab-content">
 {set $count = 0}
 {foreach $content_attributes_grouped_data_map as $attribute_group => $content_attributes_grouped}
-<div class="clearfix attribute-edit tab-pane{if $count|eq(0)} active{/if}" id="attribute-group-{$attribute_group}">
+<div class="clearfix attribute-edit tab-pane{if $count|eq(0)} active{/if}" id="attribute-group-{$attribute_group}" {if $attribute_group|eq('hidden')}style="display: none" {/if}>
 {set $count = $count|inc()}
 
 {foreach $content_attributes_grouped as $attribute_identifier => $attribute}

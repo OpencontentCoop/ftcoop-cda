@@ -4,7 +4,7 @@ class FTCoopOpenPAConsiglioConfiguration extends OpenPAConsiglioConfiguration
 {
     public function getSyncClassRemoteHost()
     {
-        return 'http://dev.ftcoop.opencontent.it';
+        return 'https://www.cooperazionetrentina.it';
     }
 
     public function useApp()
@@ -97,28 +97,6 @@ class FTCoopOpenPAConsiglioConfiguration extends OpenPAConsiglioConfiguration
         return 'lr@opencontent.it';
     }
 
-    public function getAvailableClasses()
-    {
-        return array(
-            'allegato_seduta',
-            'openpa_consiglio_collaboration_area',
-            'openpa_consiglio_collaboration_room',
-            'openpa_consiglio_collaboration_comment',
-            'openpa_consiglio_collaboration_file',
-            'convocazione_seduta',
-            'invitato',
-            'invito',
-            'materia',
-            'osservazione',
-            'punto',
-            'seduta',
-            'votazione',
-            'organo_sociale',
-            'rendiconto_spese',
-            'proposta_punto',
-        );
-    }
-
     public function getContainerDashboards()
     {
         return array(
@@ -159,6 +137,7 @@ class FTCoopOpenPAConsiglioConfiguration extends OpenPAConsiglioConfiguration
             'responsabilearea' => true,
             'cda_evento' => true,
             'cda_documento' => true,
+            'verbale' => true,
         );
     }
 
