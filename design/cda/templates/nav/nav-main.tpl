@@ -10,19 +10,19 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-2">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+                <div class="col-lg-3">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar" style="margin-top: 30px">
                         <span class="sr-only">Mostra navigazione</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
                     <a class="brand center-block text-center" href={'/'|ezurl}>
-                        <img src="{'logo.png'|ezimage(no)}" alt="{ezini( 'SiteSettings', 'GlobalSiteName', 'site.ini' )}" height="45" />
+                        <img src="{'ftcoop/logo_header.png'|ezimage(no)}" alt="{ezini( 'SiteSettings', 'GlobalSiteName', 'site.ini' )}" height="70" />
                     </a>
                 </div>
 
-                <div class="col-lg-9">
+                <div class="col-lg-9" style="margin-top: 30px">
                     <div class="collapse navbar-collapse" id="main-navbar">
                         <ul class="nav navbar-nav">
                             {if fetch( 'user', 'has_access_to', hash( module, 'consiglio', function, 'use' ))}
@@ -145,7 +145,7 @@
 						      		<input type="hidden" name="SubTreeArray" value="{$openpa_consiglio_root.main_node_id}">
 					      		{/if}
 					      		{undef $openpa_consiglio_root}
-						      {/if}						    
+						      {/if}
 						  </div>
 						</form>
 						{/if}

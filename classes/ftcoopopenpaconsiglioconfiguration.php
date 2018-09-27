@@ -187,7 +187,7 @@ class FTCoopOpenPAConsiglioConfiguration extends OpenPAConsiglioConfiguration
 
     public function logoPath()
     {
-        return 'extension/ftcoop-cda/design/cda/images/logo.png';
+        return 'extension/ftcoop-cda/design/cda/images/ftcoop/logo.png';
     }
 
     public function logoTitle()
