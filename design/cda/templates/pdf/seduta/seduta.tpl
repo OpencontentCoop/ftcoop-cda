@@ -20,7 +20,11 @@
 
         <div id="destinatari">
             <p>Gentili Signore e Signori <br />
+                {if $destinatari_organo}
+                <strong>{$destinatari_organo}</strong><br />
+                {else}
                 <strong>Componenti il {$organo}</strong><br />
+                {/if}
                 della Federazione Trentina della Cooperazione
             </p>
         </div>

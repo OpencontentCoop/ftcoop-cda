@@ -4,15 +4,28 @@
 <table border="0" width="100%">
 	<tr>
 		<td>
-			<p>
-				F.to il segretario verbalizzante<br />
-				{if $seduta.object|has_attribute('segretario_verbalizzante')}{fetch(content,object,hash(object_id, $seduta.object|attribute('segretario_verbalizzante').content.relation_list[0].contentobject_id)).name|wash()}{/if}
+			<p>				
+				{if $seduta.object|has_attribute('segretario_verbalizzante')}
+					{def $segretario = fetch(content,object,hash(object_id, $seduta.object|attribute('segretario_verbalizzante').content.relation_list[0].contentobject_id))}					
+					F.to Il segretario verbalizzante<br />
+					{$segretario.name|wash()}
+				{/if}
+				
 			</p>
 		</td>
 		<td>
-			<p> 
-				F.to il Presidente<br />
-				{if $seduta.object|has_attribute('firmatario')}{fetch(content,object,hash(object_id, $seduta.object|attribute('firmatario').content.relation_list[0].contentobject_id)).name|wash()}{/if}
+			<p> 				
+				{if $seduta.object|has_attribute('firmatario')}
+					{def $presidente = fetch(content,object,hash(object_id, $seduta.object|attribute('firmatario').content.relation_list[0].contentobject_id))}
+					F.to 
+					{if $presidente|has_attribute('pre_firma')}
+						{$presidente|attribute('pre_firma').content|wash()}
+					{else}
+						Il Presidente
+					{/if}
+					<br />
+					{$presidente.name|wash()}
+				{/if}
 			</p>
 		</td>
 	</tr>
