@@ -61,11 +61,11 @@
         <p class="indent">Chiedendovi la cortesia di comunicarci preventivamente se sarete impossibilitati a partecipare, vi saluto cordialmente.</p>
 
         {if $firmatario}
-            <p id="firma">                
-                {$firmatario} - {$descrizione_firmatario}<br/>
+            <p id="firma">                                
                 {if $firma}
-                    <img src="{$firma}" width="100"/>
+                    <img src="{$firma}" width="100"/><br />
                 {/if}
+                {$firmatario} - {$descrizione_firmatario}<br/>
             </p>
         {/if}
 

@@ -104,6 +104,7 @@ body {
 
 p.indent{
     text-indent: 60px;
+    text-align: justify;
 }
 
 #data_luogo{
