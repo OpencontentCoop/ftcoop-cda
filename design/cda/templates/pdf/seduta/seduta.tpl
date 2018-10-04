@@ -56,16 +56,16 @@
             {/foreach}
         </div>
 
-        <p class="indent">Nell'area del sito a voi riservata sono a disposizione le informazioni utili ad un preventivo esame dei temi all'ordine del giorno.</p>
+        {*<p class="indent">Nell'area del sito a voi riservata sono a disposizione le informazioni utili ad un preventivo esame dei temi all'ordine del giorno.</p>*}
 
         <p class="indent">Chiedendovi la cortesia di comunicarci preventivamente se sarete impossibilitati a partecipare, vi saluto cordialmente.</p>
 
         {if $firmatario}
             <p id="firma">                                
+                {$firmatario} - {$descrizione_firmatario}<br/>
                 {if $firma}
                     <img src="{$firma}" width="100"/><br />
-                {/if}
-                {$firmatario} - {$descrizione_firmatario}<br/>
+                {/if}                
             </p>
         {/if}
 
