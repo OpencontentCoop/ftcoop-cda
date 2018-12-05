@@ -18,6 +18,7 @@
 {if $module_params.module_name|eq('user')}
   {set $show_path = false()}
 {/if}
+{def $homepage = fetch(content, node, hash('node_id', ezini('NodeSettings', 'RootNode', 'content.ini')))}
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <META name="robots" content="NOINDEX,NOFOLLOW" />  
@@ -53,6 +54,7 @@
 {cache-block expiry=86400 keys=array( $module_result.uri, $user_hash, $access_type.name, $extra_cache_key )}
     </div>
 </div>
+{include uri='design:page_footer.tpl'}
 {include uri='design:page_footer_script.tpl'}
 {/cache-block}
 

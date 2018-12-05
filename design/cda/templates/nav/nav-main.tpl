@@ -125,7 +125,7 @@
                             {/if}
                         </ul>
 
-						{if $pagedata.is_edit|not()}
+						{if and($module_params.module_name|ne('user'), $pagedata.is_edit|not())}
                         <form class="navbar-form col-md-4 pull-right" role="search" method="get" action="{'/content/search'|ezurl( 'no' )}" id="site-wide-search" style="{if is_set( $pagedata.persistent_variable.hide_header_searchbox )}visibility: hidden;{/if}max-width: 200px;">
 						  <div class="input-group">
 						      <input type="text" class="form-control"  name="SearchText" id="site-wide-search-field" placeholder="{'Search'|i18n('design/ocbootstrap/pagelayout')}" name="srch-term" id="srch-term">
