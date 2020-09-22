@@ -6,7 +6,9 @@ use TheNetworg\OAuth2\Client\Provider\AzureResourceOwner;
 /** @var eZModule $module */
 $module = $Params['Module'];
 $http = eZHTTPTool::instance();
-eZSession::start();
+if (!eZSession::hasStarted()){
+    eZSession::start();
+}
 
 $provider = new Azure([
     'clientId' => '42c20691-491f-4bd2-b344-cb10263fa8fb',
