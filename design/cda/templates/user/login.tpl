@@ -16,26 +16,28 @@
         <h3 class='text-center title' style="margin-bottom:30px;">Accedi al sistema</h3>
         
         
-        <a class='btn btn-lg btn-primary center-block' href="{'b2clogin'|ezurl(no)}">Accedi con utente Federazione</a>
+        <a class='btn btn-lg btn-primary center-block' href={'/b2clogin'|ezurl()}>Accedi con utente Federazione</a>
 
         <hr class='hr-normal'>
-        <p class="text-center"><a role="button" data-toggle="collapse" href="#standardLoginForm" aria-expanded="false" aria-controls="standardLoginForm">
-          <small>Accedi con nome utente e password</small>
-        </a></p>
+        <p class="text-center">
+          <a data-toggle="collapse" href="#standardLoginForm" aria-expanded="false" aria-controls="standardLoginForm">
+            <small>Accedi con nome utente e password</small>
+          </a>
+        </p>
 
         <div class="collapse" id="standardLoginForm">
 
           {if $User:warning.bad_login}
           <div class="alert alert-danger">
-          <p><strong>{"Could not login"|i18n("design/ocbootstrap/user/login")}</strong></p>
-          <p>{"A valid username and password is required to login."|i18n("design/ocbootstrap/user/login")}</p>
+            <p><strong>{"Could not login"|i18n("design/ocbootstrap/user/login")}</strong></p>
+            <p>{"A valid username and password is required to login."|i18n("design/ocbootstrap/user/login")}</p>
           </div>
           {/if}
           
           {if $site_access.allowed|not}
           <div class="alert alert-danger">
-          <p><strong>{"Access not allowed"|i18n("design/ocbootstrap/user/login")}</strong></p>
-          <p>{"You are not allowed to access %1."|i18n("design/ocbootstrap/user/login",,array($site_access.name))}</p>
+            <p><strong>{"Access not allowed"|i18n("design/ocbootstrap/user/login")}</strong></p>
+            <p>{"You are not allowed to access %1."|i18n("design/ocbootstrap/user/login",,array($site_access.name))}</p>
           </div>
           {/if}
           
@@ -57,6 +59,7 @@
                 <input id='remember_me' type="checkbox" tabindex="1" name="Cookie" id="id4" />{"Remember me"|i18n("design/ocbootstrap/user/login")}          
               </label>
             </div>
+            
             <button class='btn btn-lg btn-primary center-block' name="LoginButton">{'Login'|i18n('design/ocbootstrap/user/login','Button')}</button>
             
             {if and( is_set( $User:post_data ), is_array( $User:post_data ) )}
@@ -64,7 +67,7 @@
                  <input name="Last_{$key|wash}" value="{$postData|wash}" type="hidden" /><br/>
               {/foreach}
             {/if}
-            <input type="hidden" name="RedirectURI" value="{$User:redirect_uri|wash}" />
+            <input type="hidden" name="RedirectURI" value="/" />
             
           </form>
           <div class='text-center'>
