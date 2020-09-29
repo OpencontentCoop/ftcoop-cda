@@ -16,12 +16,12 @@
         <h3 class='text-center title' style="margin-bottom:30px;">Accedi al sistema</h3>
         
         
-        <a class='btn btn-lg btn-primary center-block' href={'/b2clogin'|ezurl()}>Accedi con utente Federazione</a>
+        <a class='btn btn-lg btn-primary center-block' href={'/b2clogin'|ezurl()}>Accedi</a>
 
         <hr class='hr-normal'>
         <p class="text-center">
           <a data-toggle="collapse" href="#standardLoginForm" aria-expanded="false" aria-controls="standardLoginForm">
-            <small>Accedi con nome utente e password</small>
+            <small>Accesso admin</small>
           </a>
         </p>
 
